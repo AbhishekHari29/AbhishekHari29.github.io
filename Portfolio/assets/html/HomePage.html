@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Welcome to my PortFolio!!!
+        </title>
+        
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/HomePageStyle.css">
+        <link rel="stylesheet" href="../css/FooterStyle.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script>
+            var i = 0;
+            function move(elem , x) {
+              if (i == 0) {
+                i = 1;
+                var width = 1;
+                var id = setInterval(frame, 10);
+                function frame() {
+                  if (width >= x) {
+                    clearInterval(id);
+                    i = 0;
+                  } else {
+                    width++;
+                    elem.style.width = width + "%";
+                  }
+                }
+              }
+            }
+        </script>
+            
+    </head>
+    <body>
+        <!--Header Section-->
+        <ul class="navbar header"> 
+            <li style="float:left;"><a class="button" href="HomePage.html" style="padding: 8.5px;"><span style="font-size:150%;font-family:'Brush Script MT',cursive">Abhishek Hari</span></a></li>
+            <li style="float:right;"><a class="button" href="#contact">Contact</a></li>
+            <li style="float:right;"><a class="button" href="#projects">Works</a></li>
+            <li style="float:right;"><a class="button" href="#skills">Skills</a></li>
+            <li style="float:right;"><a class="button" href="#about">About</a></li>
+            <li style="float:right;"><a class="button" href="#home">Home</a></li>
+        </ul>
+        <!--Home Section-->
+        <div id="home" class="container" style="background-image: url('../pictures/HomeBackground.jpg');background-size: cover;">
+            <p id="demoFont" style="padding: 250px 50px;">
+                Hey There!<br>
+                I'm Abhishek Hari.<br>
+                <span style="font-size:25px;font-weight: normal;">Web Designer / Software Engineer</span><br>
+                <a href="#projects"><button class="button button1">MY PORTFOLIO</button></a>
+                <a href="#contact"><button class="button button1">GET IN TOUCH</button></a>
+            </p>
+        </div>
+        <!--About Section-->
+        <section id="about">
+            <section id="aboutme" style="background-color:#e1e1ea;">
+                <div class="shop-local-section">
+                    <div class="container shop-local-container">
+                    <div class="shop-local-wrapper">
+                    <div class="shop-local-left">
+                    </div>
+                    <div class="shop-local-right">
+                    <div class="shop-local-content-wrapper">
+                    <h2 class="shop-local-heading">About Me</h2>
+                    <p><strong>Welcome!</strong></p>
+                    <p>I'm a Web Designer, Software Engineer, Game Developer from Chennai, who is very passionate about technology. 
+                        Currently specializing in the feild of Software Engineering at VIT University, Chennai. With interests in 
+                        Web Development and Network Security, I am excited to continue developing my skills and gain valuable experiences.
+                    </p>
+                    <p>Strong in design and integration with intuitive problem-solving skills. 
+                        Proficient in Java, C/C++, Python, JS, and SQL. 
+                        Ability to translate business requirements into technical solutions. 
+                        Looking to start the career as an entry-level software engineer with a reputed firm driven by technology.
+                    </p>
+                    <p>Thank you for taking the time to visit my webpage. Have a great day!</p>
+                    <p>-------</p>
+                    <div>By,</div>
+                    <div><strong>Abhishek Hari</strong></div>
+                    <div><ul class="socials" style="padding: 0%;margin:24px 0px 0px 0px;">
+                      <li><a target="_blank" href="https://www.facebook.com/abhishek.hari.583"><i class="fa fa-facebook"></i></a></li>
+                      <li><a target="_blank" href="https://twitter.com/AbhishekHari12"><i class="fa fa-twitter"></i></a></li>
+                      <li><a target="_blank" href="https://www.instagram.com/__.w.h.i.t.e_d.e.v.i.l.__/"><i class="fa fa-instagram"></i></a></li>
+                      <li><a target="_blank" href="https://www.linkedin.com/in/abhishek-hari-b40694202"><i class="fa fa-linkedin"></i></a></li>
+                      <li><a target="_blank" href="https://github.com/AbhishekHari29"><i class="fa fa-github"></i></a></li>
+                      <li><a target="_blank" href="mailto:abhishek.t2018@vitstudent.ac.in"><i class="fa fa-google-plus"></i></a></li>
+                  </ul></div>
+                    <br>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+            </section>
+            <div id="about" class="container rightImg" style="background-image: url(../pictures/programmer.jfif);">
+            
+                <p id="demoFont">
+                    #Developer
+                </p>
+            </div>
+            <div id="about1" class="container leftImg" style="background-image: url(../pictures/student.jpg);">
+                
+                <p id="demoFont">
+                    #Student
+                </p>
+            </div>
+            <div id="about2" class="container rightImg" style="background-image: url(../pictures/gaming.jpg);">
+                
+                <p id="demoFont">
+                    #Gamer
+                </p>
+            </div>
+            <div id="about3" class="container leftImg" style="background-image: url(../pictures/badminton.jpg);">
+                
+                <p id="demoFont">
+                    #Athlete
+                </p>
+            </div>
+            <div id="about4" class="container rightImg" style="background-image: url(../pictures/rubik.jpg);">
+                
+                <p id="demoFont">
+                    #Puzzle Solver
+                </p>
+            </div>
+            <div id="about5" class="container leftImg" style="background-image: url(../pictures/traveller.jpg);">
+                
+                <p id="demoFont">
+                    #Traveller
+                </p>
+            </div>
+        </section>
+        <!--Skill Section-->
+        <div id = "skills" class="container" style="background-color:whitesmoke;">
+            <h1>My Skills</h1>
+                <div style="padding: 0px 50px;">
+                    <p>Java</p>
+                    <div class="skillset">
+                    <div class="skills java" onmouseover="move(this,90)">90%</div>
+                    </div>
+
+                    <p>C / C++</p>
+                    <div class="skillset">
+                    <div class="skills c" onmouseover="move(this,80)">80%</div>
+                    </div>
+
+                    <p>Python</p>
+                    <div class="skillset">
+                    <div class="skills python" onmouseover="move(this,70)">70%</div>
+                    </div>
+
+                    <p>HTML</p>
+                    <div class="skillset">
+                    <div class="skills html" onmouseover="move(this,65)">65%</div>
+                    </div>
+
+                    <p>CSS</p>
+                    <div class="skillset">
+                    <div class="skills css" onmouseover="move(this,60)">60%</div>
+                    </div>
+                </div>
+        </div>
+        <!--Projects Section-->
+        <section id="projects" class="projects-section" style="padding: 50px 0px;">
+            <h2 class="projects-section-header">My Projects</h2>
+          
+            <div class="projects-grid">
+              <a
+                href="https://github.com/AbhishekHari29/E-Hospital"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://raw.githubusercontent.com/AbhishekHari29/E-Hospital/main/Pictures/ehospital_thumbnail.jpg"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  E Hospital
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+              <a
+                href="https://github.com/AbhishekHari29/Digital-Steganography"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://raw.githubusercontent.com/AbhishekHari29/Digital-Steganography/main/Digital-Steganography-java.jpg"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  Digital Steganography
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+              <a
+                href="https://github.com/AbhishekHari29/ResumeMaker"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://raw.githubusercontent.com/AbhishekHari29/ResumeMaker/main/pictures/ResumeMaker_thumbnail.jpg"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  Resume Maker
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+              <a
+                href="https://github.com/AbhishekHari29/Other-projects/raw/main/Automated%20Testing%20using%20Python/ST_Report.pdf"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://raw.githubusercontent.com/AbhishekHari29/Other-projects/main/Automated%20Testing%20using%20Python/AutomatedTesting_thumnail.jpg"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  Automated Testing Python
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+              <a
+                href="https://github.com/AbhishekHari29/BankingApp"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://raw.githubusercontent.com/AbhishekHari29/BankingApp/main/Pictures/BankingApp_thumbnail.png"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  Banking App
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+              <a
+                href="https://github.com/AbhishekHari29/Other-projects/raw/main/Fitness%20AI%20companion/REM_Final_Report.pdf"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://raw.githubusercontent.com/AbhishekHari29/Other-projects/main/Fitness%20AI%20companion/FitnessAIcompanion_thumbnail.jpg"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  Fitness AI companion
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+            </div>  
+          </section>
+          <!--Contact Section-->
+            <section id="contact">
+                <div class="container">
+                    <div class="heading-wrapper">
+                        <div class="heading">
+                            <p class="title">Want to <br>contact me?</p>
+                            <p class="separator"></p>
+                            <p class="subtitle">Please, use the form below or send an email</p>
+                        </div>
+                        <ul class="socials">
+                          <li><a target="_blank" href="https://www.facebook.com/abhishek.hari.583"><i class="fa fa-facebook"></i></a></li>
+                          <li><a target="_blank" href="https://twitter.com/AbhishekHari12"><i class="fa fa-twitter"></i></a></li>
+                          <li><a target="_blank" href="https://www.instagram.com/__.w.h.i.t.e_d.e.v.i.l.__/"><i class="fa fa-instagram"></i></a></li>
+                          <li><a target="_blank" href="https://www.linkedin.com/in/abhishek-hari-b40694202"><i class="fa fa-linkedin"></i></a></li>
+                          <li><a target="_blank" href="https://github.com/AbhishekHari29"><i class="fa fa-github"></i></a></li>
+                          <li><a target="_blank" href="mailto:abhishek.t2018@vitstudent.ac.in"><i class="fa fa-google-plus"></i></a></li>
+                      </ul>
+                    </div>
+                    <form id="contact-form" action="#">
+                        <input placeholder="Name" name="name" type="text" required="">
+                        <input placeholder="Email" name="email" type="email" required="">
+                        <textarea placeholder="Message" type="text" name="message"></textarea><input class="button" id="submit" type="submit" value="Submit">
+                    </form>
+                </div>
+            </section>        
+        <!--Footer Section-->
+        <footer>
+            <div class="footer-content">
+                <h3 id="demoFont" style="color:#fff;font-size:48px">Abhishek Hari</h3>
+                <p>Thank you for taking the time to visit my webpage. Have a great day!</p>
+                <ul class="socials">
+                    <li><a target="_blank" href="https://www.facebook.com/abhishek.hari.583"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/AbhishekHari12"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/__.w.h.i.t.e_d.e.v.i.l.__/"><i class="fa fa-instagram"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/abhishek-hari-b40694202"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a target="_blank" href="https://github.com/AbhishekHari29"><i class="fa fa-github"></i></a></li>
+                    <li><a target="_blank" href="mailto:abhishek.t2018@vitstudent.ac.in"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy;2020 AbhishekHari. designed by <span>Abhishek Hari</span></p>
+            </div>
+        </footer>
+        
+    </body>
+</html>
